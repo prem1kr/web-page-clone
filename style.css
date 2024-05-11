@@ -1,0 +1,211 @@
+
+body {
+    display: fixed;
+   
+    background-image: url('background-image.png');
+   background-attachment: flex;
+   background-size: 100%;
+  background-position-x: 1520px;
+  background-position-y:700px ;
+
+}
+
+.navbar{
+    display: flex;
+    position: relative;
+    left: 50px;
+    top: 20px;
+    
+}
+
+.nav_middle_bar li{
+    
+color: black;
+position: relative; /* or absolute, fixed, etc. depending on your layout needs */
+    left: 260px;; /* Adjust as needed */
+  display: inline;
+  top: 6px;
+ margin-left: 30px;
+ color: solid;
+
+}
+
+.nav_right_bar{
+    
+    display: inline;
+    position: relative;
+    top: 10px;
+    left: 80%;
+    background-position-x: fixed;
+    background-attachment: fixed;
+    background-position-y:fixed ;
+    object-position: fixed;
+}
+
+.register{
+    display: inline;
+    position: relative;
+    top: 0%;
+    left: 82%;
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: rgb(193, 2, 132);
+    cursor: pointer;
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.3);
+    background-position-x: fixed;
+    background-attachment: fixed;
+    background-position-y:fixed ;
+    object-position: fixed;
+    border-radius: 4.5px;
+}
+
+.circular-button {
+    
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    height: 50px;
+    background-color:white; /* Change to desired color */
+    color:black;
+    text-align: center;
+    line-height: 50px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 35%;
+    top: 80px;
+    display: inline-block;
+    border-radius: 90px;
+    background-position-x: fixed;
+    background-attachment: fixed;
+    background-position-y:fixed ;
+    object-position: fixed;
+}
+
+.button{
+    background-color: white;
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.3);
+    width: 150px;
+    height: 50px;
+    color: black;
+    display: inline block;
+    border-radius: 90px;
+    border: none;
+    position: relative;
+    left: 61%;
+    top: 250px;
+    cursor: pointer;
+    background-position-x: fixed;
+    background-attachment: fixed;
+    background-position-y:fixed ;
+    object-position: fixed;
+}
+
+.move-image {
+    display: flex;
+    position: relative; /* or absolute, fixed, etc. depending on your layout needs */
+    top:0px; /* Adjust as needed */
+    left: 43%; /* Adjust as needed */
+}
+
+.hyper_text {
+    color: black;
+    font-size: 33px;
+    position: relative;
+    bottom: 530px;
+    left: 3%;
+}
+
+.small_text {
+    color: black;
+    font-size: 20px;
+    position: relative;
+    bottom: 540px;
+    left: 4%;
+}
+
+.apply-online{
+    background-color: rgb(223, 3, 168);
+    text-align: center;
+    color: rgb(253, 253, 253);
+   position: relative;
+   bottom: 525px;
+   left: 4%;
+   box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.3);
+   width: 130px;
+   height: 30px;
+   border-radius: 5px;
+
+}
+
+.loan-calculator{
+    background-color: white;
+    text-align: center;
+    position: relative;
+    color: rgb(232, 3, 182);
+    bottom: 525px;
+    left: 6%;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: rgb(224, 5, 78);
+}
+
+.call{
+    position: relative;
+    display: inline;
+    bottom: 465px;
+    left: 4%;
+    width: 20px;
+    height: 15px;
+   
+}
+
+.number{
+    
+    color: black;
+    position: relative;
+    bottom: 505px;
+    left: 6%;
+   
+}
+
+.facebook{
+    color: black;
+    position: relative;
+    bottom: 540px;
+    left: 10%;
+    width: 20px;
+    height: 20px;
+}
+
+.youtube{
+    color: black;
+    position: relative;
+    bottom: 564px;
+    left: 13%;
+    width: 18px;
+    height: 18px;
+    
+}
+
+.linkedin{
+    color: black;
+    position: relative;
+    bottom: 583px;
+    left: 16%;
+    width: 16px;
+    height: 16px;
+}
+
+.instagram{
+    color: black;
+    position: relative;
+    bottom: 600px;
+    left: 19%;
+    width: 15px;
+    height: 15px;
+}
+
